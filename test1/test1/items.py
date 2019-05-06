@@ -11,4 +11,13 @@ import scrapy
 class Test1Item(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    houseName = scrapy.Field() # the house's name
+	houseType = scrapy.Field() # like "三室一厅"
+	houseSize = scrapy.Field() # like "155m2"
+	houseFloor = scrapy.Field() # like "中层（共11层）"
+    houseConstructionTime = scrapy.Field() # like "2015"
+	houseAddress = scrapy.Field() # 
+	houseTags = scrapy.Field()
+	detPrice = scrapy.Field()
+	unitPrice = scrapy.Field()
+	pass
